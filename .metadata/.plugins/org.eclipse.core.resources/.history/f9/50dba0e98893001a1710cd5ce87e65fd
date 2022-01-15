@@ -1,0 +1,22 @@
+package JavaCollectoionFramework;
+
+import java.util.ArrayList;
+
+public class ListIterator {
+	
+	public static void main(String arg[]) {
+		
+		ArrayList a = new ArrayList();
+		
+		for (int i = 0; i < 10; i++)
+			a.add(i);
+			
+	System.out.println("Elements of ArreayList"+a);
+	
+	ListIterator itr= (ListIterator) a.listIterator();
+	
+	
+	
+	}
+
+}

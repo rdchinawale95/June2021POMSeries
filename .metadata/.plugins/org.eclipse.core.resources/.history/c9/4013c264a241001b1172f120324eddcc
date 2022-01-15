@@ -1,0 +1,28 @@
+
+public class reverseEachWordInString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String str="Welcome to Java";
+		
+		String[] words=str.split("");
+		
+		System.out.println(words);
+		
+		String reverseAString="";
+		
+		
+		for (String w:words)
+		{
+			System.out.println(w);
+			String reversewords="";
+			for(int i=w.length()-1;i>=0;i--)
+			{
+		
+			}
+			
+		}
+	}
+
+}

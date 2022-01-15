@@ -1,0 +1,39 @@
+package com.selenium.masterpart2;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+
+public class HandleMouseHover {
+
+WebDriver driver =  null;
+	
+	
+	@BeforeMethod
+	public  void openBrowser(){
+		System.setProperty("webdriver.chrome.driver", 
+				"D:/Development Avecto/Selenium_browser_drivers/chromedriver_win32 (1)/chromedriver.exe");
+		 driver= new ChromeDriver();
+		 
+		
+		 driver.manage().window().maximize();
+		 
+		 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
+}
+	
+	@AfterMethod
+	public void closeBrowser() {
+		driver.quit();
+	}
+	
+	
+	@Test
+	public void handleMOusehover() {
+		
+	}
+	
+}

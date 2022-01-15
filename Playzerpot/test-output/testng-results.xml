@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="93122" started-at="2021-07-31T22:45:01 IST" finished-at="2021-07-31T22:46:34 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="93122" started-at="2021-07-31T22:45:01 IST" finished-at="2021-07-31T22:46:34 IST">
+      <class name="com.project.playzerpot.addMoneyToPlayzerpot">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.project.playzerpot.addMoneyToPlayzerpot@eec5a4a]" name="invokeBrowser" is-config="true" duration-ms="2024" started-at="2021-07-31T22:45:01 IST" finished-at="2021-07-31T22:45:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="addMoneyToAccount()[pri:0, instance:com.project.playzerpot.addMoneyToPlayzerpot@eec5a4a]" name="addMoneyToAccount" duration-ms="86887" started-at="2021-07-31T22:45:03 IST" finished-at="2021-07-31T22:46:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMoneyToAccount -->
+        <test-method status="PASS" signature="logoutFromAccount()[pri:0, instance:com.project.playzerpot.addMoneyToPlayzerpot@eec5a4a]" name="logoutFromAccount" duration-ms="2399" started-at="2021-07-31T22:46:30 IST" finished-at="2021-07-31T22:46:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromAccount -->
+        <test-method status="PASS" signature="logoutFromAccount()[pri:0, instance:com.project.playzerpot.addMoneyToPlayzerpot@eec5a4a]" name="logoutFromAccount" is-config="true" duration-ms="1768" started-at="2021-07-31T22:46:33 IST" finished-at="2021-07-31T22:46:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromAccount -->
+      </class> <!-- com.project.playzerpot.addMoneyToPlayzerpot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

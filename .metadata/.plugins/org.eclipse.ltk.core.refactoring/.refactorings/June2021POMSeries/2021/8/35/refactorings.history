@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Constants.java&apos; to &apos;POMProject/src/main/java/com.qa.democart.utils&apos;&#x0D;&#x0A;- Original project: &apos;June2021POMSeries&apos;&#x0D;&#x0A;- Destination element: &apos;POMProject/src/main/java/com.qa.democart.utils&apos;&#x0D;&#x0A;- Original element: &apos;com.qa.opencart.utils.Constants.java&apos;" description="Copy compilation unit" destination="=POMProject/src\/main\/java&lt;com.qa.democart.utils" element1="/src\/main\/java&lt;com.qa.opencart.utils{Constants.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1630169005111" units="1" version="1.0"/>
+</session>

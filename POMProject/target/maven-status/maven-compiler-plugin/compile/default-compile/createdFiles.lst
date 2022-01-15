@@ -1,0 +1,12 @@
+com\qa\democart\factory\OptionsManager.class
+com\qa\democart\utils\ExcelUtils.class
+com\qa\democart\pages\ProductInfoPage.class
+com\qa\democart\utils\Constants.class
+com\qa\democart\utils\Errors.class
+com\qa\democart\pages\RegistrationsPage.class
+com\qa\democart\factory\DriverFactory.class
+com\qa\democart\pages\LoginPage.class
+com\qa\democart\utils\ElementUtil.class
+com\qa\democart\pages\AccountsPage.class
+com\qa\democart\pages\ResultsPage.class
+com\qa\democart\utils\JavascriptUtil.class

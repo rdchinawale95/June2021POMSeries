@@ -1,0 +1,31 @@
+
+public class String1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String s= "Virat Kohli has won us the match";
+		
+		System.out.println(s);
+		s.toCharArray();
+		//String[] r= s.split(" ");
+		String reverse= "";
+		System.out.println(s);
+		
+		for (String w : s) {
+			System.out.println(w);
+			
+			for (int i=w.length()-1; i >= 0; i--) {
+				
+				reverse= reverse+w.charAt(i);
+			}
+			
+		}
+	System.out.println(reverse);
+			
+			
+	}
+	}
+
+

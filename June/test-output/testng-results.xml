@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18614" started-at="2021-08-15T12:53:10Z" finished-at="2021-08-15T12:53:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18614" started-at="2021-08-15T12:53:10Z" finished-at="2021-08-15T12:53:28Z">
+      <class name="testNGpractice.loginPagetest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testNGpractice.loginPagetest@5c3bd550]" name="setup" is-config="true" duration-ms="6425" started-at="2021-08-15T12:53:10Z" finished-at="2021-08-15T12:53:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login_NegativeTest(java.lang.String, java.lang.String)[pri:0, instance:testNGpractice.loginPagetest@5c3bd550]" name="login_NegativeTest" duration-ms="2338" started-at="2021-08-15T12:53:16Z" data-provider="getLoginData" finished-at="2021-08-15T12:53:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveen@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[naveen123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_NegativeTest -->
+        <test-method status="PASS" signature="login_NegativeTest(java.lang.String, java.lang.String)[pri:0, instance:testNGpractice.loginPagetest@5c3bd550]" name="login_NegativeTest" duration-ms="2490" started-at="2021-08-15T12:53:18Z" data-provider="getLoginData" finished-at="2021-08-15T12:53:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveenanimation20@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[naveen23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_NegativeTest -->
+        <test-method status="PASS" signature="login_NegativeTest(java.lang.String, java.lang.String)[pri:0, instance:testNGpractice.loginPagetest@5c3bd550]" name="login_NegativeTest" duration-ms="2517" started-at="2021-08-15T12:53:21Z" data-provider="getLoginData" finished-at="2021-08-15T12:53:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[    ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[     ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_NegativeTest -->
+        <test-method status="PASS" signature="login_NegativeTest(java.lang.String, java.lang.String)[pri:0, instance:testNGpractice.loginPagetest@5c3bd550]" name="login_NegativeTest" duration-ms="2471" started-at="2021-08-15T12:53:23Z" data-provider="getLoginData" finished-at="2021-08-15T12:53:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveen@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[    ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_NegativeTest -->
+        <test-method status="PASS" signature="login_NegativeTest(java.lang.String, java.lang.String)[pri:0, instance:testNGpractice.loginPagetest@5c3bd550]" name="login_NegativeTest" duration-ms="2330" started-at="2021-08-15T12:53:26Z" data-provider="getLoginData" finished-at="2021-08-15T12:53:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[    ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_NegativeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNGpractice.loginPagetest@5c3bd550]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-08-15T12:53:28Z" finished-at="2021-08-15T12:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNGpractice.loginPagetest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

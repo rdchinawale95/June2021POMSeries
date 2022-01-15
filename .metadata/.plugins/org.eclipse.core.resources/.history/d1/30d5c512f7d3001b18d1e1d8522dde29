@@ -1,0 +1,28 @@
+
+public class Practice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s= "Java is language java is";
+	/*	String rev="";
+		
+		for (int i =  s.length()-1; i>=0;i--) {
+			rev = rev+ s.charAt(i);
+		
+		}
+		System.out.println(rev);
+		*/
+		
+		String as[]=s.split(" ");
+		String revwords="";
+		for (int i = as.length-1; i >=0; i--) {
+			revwords= revwords+as[i];
+		}
+		System.out.println(revwords);
+		
+		
+		
+	}
+	
+}

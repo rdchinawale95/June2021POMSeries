@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Regression Test]]">
+  <test thread-count="5" name="Rediff Mail Test(failed)(failed)">
+    <classes>
+      <class name="testNGpractice.RediffMailTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="pageTitleTest"/>
+        </methods>
+      </class> <!-- testNGpractice.RediffMailTest -->
+    </classes>
+  </test> <!-- Rediff Mail Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Regression Test]] -->

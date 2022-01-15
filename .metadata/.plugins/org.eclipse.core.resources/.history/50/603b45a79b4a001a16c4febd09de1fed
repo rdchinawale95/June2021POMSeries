@@ -1,0 +1,15 @@
+package Oops;
+
+public class BMW extends Car{
+	
+	String name = "BMW";
+	
+	private static void main(String[] agrs) {
+	Car car = new Car();	
+	}
+	
+
+	
+	
+
+}

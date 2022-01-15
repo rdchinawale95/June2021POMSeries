@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [Regression Test]" parallel="tests">
+  <test thread-count="3" verbose="4" name="Google(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <parameter name="url" value="https://www.google.com/"/>
+    <classes>
+      <class name="testNGpractice.GooglTest">
+        <methods>
+          <include name="pageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="pageURLTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testNGpractice.GooglTest -->
+    </classes>
+  </test> <!-- Google(failed) -->
+</suite> <!-- Failed suite [Regression Test] -->

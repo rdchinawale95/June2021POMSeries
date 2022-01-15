@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="317493" started-at="2021-09-04T03:02:41Z" finished-at="2021-09-04T03:07:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="317493" started-at="2021-09-04T03:02:41Z" finished-at="2021-09-04T03:07:59Z">
+      <class name="com.qa.democart.tests.RegistrationPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.democart.tests.RegistrationPageTest@716a7124]" name="setup" is-config="true" duration-ms="26786" started-at="2021-09-04T03:02:41Z" finished-at="2021-09-04T03:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="regSetup()[pri:0, instance:com.qa.democart.tests.RegistrationPageTest@716a7124]" name="regSetup" is-config="true" duration-ms="23428" started-at="2021-09-04T03:03:08Z" finished-at="2021-09-04T03:03:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regSetup -->
+        <test-method status="PASS" signature="registrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.democart.tests.RegistrationPageTest@716a7124]" name="registrationTest" duration-ms="87429" started-at="2021-09-04T03:03:33Z" data-provider="getRegTestData" finished-at="2021-09-04T03:05:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhumika1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[patel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9898989898]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method status="PASS" signature="registrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.democart.tests.RegistrationPageTest@716a7124]" name="registrationTest" duration-ms="88218" started-at="2021-09-04T03:05:00Z" data-provider="getRegTestData" finished-at="2021-09-04T03:06:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ekta185]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9090909874]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method status="PASS" signature="registrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.democart.tests.RegistrationPageTest@716a7124]" name="registrationTest" duration-ms="89294" started-at="2021-09-04T03:06:29Z" data-provider="getRegTestData" finished-at="2021-09-04T03:07:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravi185]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8787656765]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@567]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.democart.tests.RegistrationPageTest@716a7124]" name="tearDown" is-config="true" duration-ms="762" started-at="2021-09-04T03:07:58Z" finished-at="2021-09-04T03:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.democart.tests.RegistrationPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

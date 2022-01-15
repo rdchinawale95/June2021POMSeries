@@ -1,0 +1,48 @@
+package Encapsulation;
+
+public class Sample1 {
+	
+	String name;
+	int age;
+	int salary;
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+
+	public String getName() {
+		System.out.println(name);
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public int getAge() {
+		System.out.println(age);
+		return age;
+	}
+
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+
+	private int getSalary() {
+		System.out.println(salary);
+		return salary;
+	}
+
+
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+
+}

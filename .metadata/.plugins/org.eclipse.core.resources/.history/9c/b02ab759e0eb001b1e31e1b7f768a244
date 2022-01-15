@@ -1,0 +1,21 @@
+package practice;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class xpath_axes {
+static WebDriver driver;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.get("https://classic.freecrm.com/index.cfm?CFID=639493&CFTOKEN=198d1b692c7590da-D473935E-F8DC-B9FA-72E60D71D1ECF9AD&jsessionid=a63078ec487b13d7be8b60333e5e154f35b6");
+	
+	
+		driver.findElement(By.xpath("//a[text()='Abe Sabian']//parent::td//preceding-sibling::td/input")).click();
+	}
+
+}

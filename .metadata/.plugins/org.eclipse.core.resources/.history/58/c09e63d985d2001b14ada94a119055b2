@@ -1,0 +1,30 @@
+
+public class Sample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="Java 100 Pune";
+		String s1= "Mumbai 200";
+		String s2= "100 Jalgaon";
+		
+		
+//		if(s.contains("100")) {
+//		System.out.println("Test case s is passed");
+//		
+//		}else {
+//			System.out.println("s test case is failed");
+//		}
+
+		String ar[]= s.split(" ");
+
+		String one= "100";
+		for (int i = 0; i <= ar.length-1; i++) {
+			if (ar[i]==one) {
+				System.out.println("Testcase s is passed");
+			}else {
+				System.out.println("Failed");
+			}
+		}
+		
+}
+}

@@ -1,0 +1,51 @@
+package com.selenium.masterpart2;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+
+public class AutoSuggest {
+WebDriver driver =  null;
+	
+	
+	@BeforeMethod
+	public  void openBrowser(){
+		System.setProperty("webdriver.chrome.driver", 
+				"D:/Development Avecto/Selenium_browser_drivers/chromedriver_win32 (1)/chromedriver.exe");
+		 driver= new ChromeDriver();
+		 
+		
+		 driver.manage().window().maximize();
+		 
+		 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
+}
+	
+	@AfterMethod
+	public void closeBrowser() {
+		driver.quit();
+	}
+	
+	@Test
+	public void AutoSugg() {
+		driver.get("https://www.google.com/");
+		
+		driver.findElement(By.name("q")).sendKeys("Selenium");
+		
+		List<WebElement> auto= driver.findElements(By.xpath("//*[@role='presentation']"));
+		System.out.println(auto.size());
+		
+		for (WebElement size : auto) {
+			System.out.println(size.getText());
+			
+			
+		}
+	}
+
+}

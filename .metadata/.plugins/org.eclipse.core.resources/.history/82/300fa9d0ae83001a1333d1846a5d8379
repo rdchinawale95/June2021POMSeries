@@ -1,0 +1,17 @@
+package com.selenium.masterpart2;
+
+import org.testng.annotations.BeforeMethod;
+
+public class HandleMultileWindows {
+	
+	WebDriver driver =  null;
+	
+	@BeforeMethod
+	public  void openBrowser(){
+		System.setProperty("webdriver.chrome.driver", 
+				"D:/Development Avecto/Selenium_browser_drivers/chromedriver_win32/chromedriver.exe");
+		 driver= new ChromeDriver();
+		
+	}
+
+}

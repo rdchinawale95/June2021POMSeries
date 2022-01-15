@@ -1,0 +1,15 @@
+
+public class Sample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="Java 100 Pune";
+		String s1= "Mumbai 200";
+		String s2= "100 Jalgaon";
+		
+		s.contains("100");
+		System.out.println(ss.contains("100"));
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+com\qa\democart\tests\ProductInfoTest.class
+com\qa\democart\tests\LoginPageTest.class
+com\qa\democart\tests\BaseTest.class
+com\qa\democart\tests\RegistrationPageTest.class
+com\qa\democart\tests\AccountsPageTest.class
